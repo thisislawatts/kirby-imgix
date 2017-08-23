@@ -12,5 +12,5 @@ Usage
 Wrap any image url's you'd like to load via imgix
 
 ```php
-<img src="<?php imgix( $image->url() ); ?>" alt="Example Document"/>
+<img src="<?= imgix( $image->url() ); ?>" alt="Example Document"/>
 ```
